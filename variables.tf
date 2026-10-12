@@ -18,3 +18,10 @@ variable "state_key" {
   description = "S3 key of the existing infrastructure state file."
   type        = string
 }
+
+
+variable "instance_type" {
+  description = "Type of EC2 instance to create."
+  type        = string
+
+}
